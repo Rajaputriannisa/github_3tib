@@ -237,6 +237,7 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="pertama\cobagithub.aspx" />
+    <Content Include="pertama\testgithub.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -442,6 +443,13 @@
     </Compile>
     <Compile Include="pertama\cobagithub.aspx.vb">
       <DependentUpon>cobagithub.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pertama\testgithub.aspx.designer.vb">
+      <DependentUpon>testgithub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pertama\testgithub.aspx.vb">
+      <DependentUpon>testgithub.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
